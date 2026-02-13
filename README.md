@@ -37,21 +37,22 @@ A machine learning-powered application that assesses password strength using an 
 
 ## 🚦 Usage
 
-To run the application, you need to start both the backend server and the frontend interface.
+The backend API is deployed on AWS at `http://54.226.206.2:8000`. The frontend is configured to use this deployed API by default.
 
-### 1. Start the Backend (FastAPI)
-Run the following command to start the API server:
-```bash
-uvicorn app:app --reload
-```
-The API will be available at `http://127.0.0.1:8000`. You can access the automatic API documentation at `http://127.0.0.1:8000/docs`.
-
-### 2. Start the Frontend (Streamlit)
-In a new terminal window, run:
+### 1. Start the Frontend (Streamlit)
+Run the following command to start the application interface:
 ```bash
 streamlit run frontend.py
 ```
 The application will open in your default web browser (usually at `http://localhost:8501`).
+
+### Optional: Run Backend Locally (For Development)
+If you wish to run the backend server locally instead of using the deployed AWS instance, you can start it with:
+
+```bash
+uvicorn app:app --reload
+```
+(Note: You will need to update `API_URL` in `frontend.py` to point to localhost)
 
 ## 🧠 Model Details
 

@@ -5,7 +5,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 # Configuration
-API_URL = "http://localhost:8000"  # Change this to your deployed API URL
+API_URL = "http://54.226.206.2:8000"  # Change this to your deployed API URL
 PREDICT_ENDPOINT = f"{API_URL}/predict"
 HEALTH_ENDPOINT = f"{API_URL}/health"
 
