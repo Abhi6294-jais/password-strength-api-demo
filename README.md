@@ -2,6 +2,12 @@
 
 A machine learning-powered application that assesses password strength using an XGBoost model with **94% accuracy**. This project includes a FastAPI backend for predictions and a Streamlit frontend for an interactive user experience.
 
+
+## 🌐 Live Demo
+
+Check out the live application here:
+[**Password Strength Checker App**](https://password-strength-api-demo-twntwoasir6po98eqf4nsh.streamlit.app/)
+
 ## 🚀 Features
 
 - **Real-time Analysis**: Instant feedback on password strength (Weak, Medium, Strong).
