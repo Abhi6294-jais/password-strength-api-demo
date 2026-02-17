@@ -68,6 +68,6 @@ The model is trained on a dataset of passwords labeled as 0 (Weak), 1 (Medium), 
 
 Accuracy: **94.05%**
 
-## 📝 License
+## � Deployment
 
-[Add your license here, e.g., MIT]
+The backend application has been dockerized and deployed on an AWS EC2 instance.
